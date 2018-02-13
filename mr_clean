@@ -1,0 +1,6 @@
+#!/bin/bash
+find . \( -name '*.o' -o -name '*~' -o -name '#*#' -o -name 'vgcore.*' \) -print0 | xargs -0 /bin/rm -f
+find include/ \( -name '*~' -o -name '#*#' -o -name '*.gch' \) -print0 | xargs -0 /bin/rm -f
+find source/ \( -name '*~' -o -name '#*#' -o -name 'vgcore.*' \) -print0 | xargs -0 /bin/rm -f
+find lib/Utils_lib/ \( -name '*.o' -o -name '*.a' -o -name '*~' -o -name '#*#' -o -name 'vgcore.*' \) -print0 | xargs -0 /bin/rm -f
+find lib/Utils_lib/include/ \( -name '*~' -o -name '#*#' -o -name '*.gch' \) -print0 | xargs -0 /bin/rm -f
