@@ -1,35 +1,18 @@
 /*
 ** EPITECH PROJECT, 2017
-** Projet -> unit_test.c
+** [N/A] {Vincent FAIVRE}
 ** File description:
-** Unit_tests
+** Unit_tests (Ouvre le favoris Unit Tests!!!!)
 */
 
 #include <criterion/criterion.h>
 
-/*
-EXEMPLE :
-
-int	sum_stdarg(int i, int nb, ...);
-
-Test(sum_stdar, return_correct_when_ret_is_zero)
+Test(project, test1)
 {
-	int ret = sum_stdarg(0, 3, 21, 25, -4);
-
-	cr_assert(ret == 0);
+	cr_assert_eq(3, 5);
 }
 
-Test(sum_stdarg, return_correct_when_ret_is_less_than_zero)
+Test(project, test2)
 {
-	int ret = sum_stdarg(0, 3, 21, 25, -4);
-
-	cr_assert(ret <= 0);
+	cr_assert_eq(5, 5);
 }
-
-Test(sum_stdarg, return_correct_when_ret_is_more_than_zero)
-{
-	int ret = sum_stdarg(0, 3, 21, 25, -4);
-
-	cr_assert(ret >= 0);
-}
-*/

@@ -1,2 +1,2 @@
-# PSU_navy_2017
-Battleship game in C
+# My_Project
+The root of all my projects
